@@ -31,7 +31,7 @@ Notch posion of rotor3 and rotor2  V E
 ------------------------------------------------------------------------------------------------------------------------
 Enigma : ENIGMA  ->  HUBNEQ
 ```
-<br />For  revert plaintext,you can run  scripts  again with same config, as follows
+<br />For  revert plaintext,you can run  script  again with same config, as follows
 
 ```
 Fatihs-MacBook-Pro:Enigma fatih$ python3 enigma.py -m HUBNEQ -sp KET -n2 E -n3 V 
