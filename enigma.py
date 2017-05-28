@@ -8,7 +8,7 @@ import  sys
 description = """
     Enigma machine v3  implemantation
     Usage: python enigma.py  [ Options ...]  -m plaintext
-    Eg: python enigma.py  -p1 0 -p2 2 -p3  -r B -m RANGER
+    Eg: python3 enigma.py -m CYBERSTRUGGLE -sp CSR -n2 E -n3 V 
 """
 
 
@@ -17,7 +17,7 @@ parser = argparse.ArgumentParser("Enigma machine implemantation", description)
 parser.add_argument("--startpos", "-sp", help="Start position of root 1", required=False, default="AAA")
 parser.add_argument("--notch2", "-n2", help="notch position of root 2", required=False, default="E")
 parser.add_argument("--notch3", "-n3", help="notch position of root 3", required=False, default="V")
-parser.add_argument("--message", "-m", help="input message to entry enigma machine ", required=True, default="RANGER")
+parser.add_argument("--message", "-m", help="input message to entry enigma machine ", required=True, default="CSR")
 parser.add_argument("--reflactor", "-r", help="reflactor of A,B,C is avilable ", required=False, default='B')
 
 
